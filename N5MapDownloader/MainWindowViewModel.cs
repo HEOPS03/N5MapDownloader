@@ -67,7 +67,7 @@ namespace N5MapDownloader
             if (DownloadingMaps == null || DownloadingMaps.Count() == 0)
                 return;
 
-            string destination = $"{GameFolder}\\garrysmod\\download\\maps2";
+            string destination = $"{GameFolder}\\garrysmod\\download\\maps";
             if(!Directory.Exists(destination))
             {
                 MessageBox.Show("Указанный путь не найден. Укажите верный путь до Garrys Mod");
